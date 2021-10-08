@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python main/check_datasets/eval_imagenet.py  --input_type img  --language_model Clip_ViT-B/16 --model_type sim --only_offending True --prompt_path './results/ViT-B-16/prompts.p'
+CUDA_VISIBLE_DEVICES=1 python main/check_datasets/eval_imagenet_val.py  --input_type img  --language_model Clip_ViT-B/16 --model_type sim --only_offending True --prompt_path './results/ViT-B-16/prompts.p'
