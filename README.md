@@ -3,7 +3,9 @@
 This repository provides the sources code for the publication: TODO
 
 The required datasets can be downloaded here:
+
 SMID: https://osf.io/2rqad/
+
 ImageNet: https://image-net.org/download.php
 
 ## Reproducing the results
